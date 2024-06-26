@@ -1,0 +1,361 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+body {
+    background-image: radial-gradient(circle 993px at 0.5% 50.5%, rgba(86, 136, 245, 0.37) 0%, rgba(245, 247, 252, 1) 100.2%);
+}*/
+
+.img-header {
+    height: 70%;
+}
+
+#div-wrapper-contacts {
+    padding: 0%;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    justify-content: space-around;
+}
+
+header {
+    height: 70px;
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    padding: 1%;
+}
+
+#wrapper-header {
+    width: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#text-header {
+    /*background-color: #fff;*/
+    text-decoration: none;
+    margin-right: 3%;
+    letter-spacing: 1px;
+    font-family: "arial black", monospace;
+    color: #e22bd9;
+    font-size: 12px;
+    text-shadow: 0 0 1px #000;
+}
+
+#wrapper-car {
+    border-radius: 40%;
+    width: 100px;
+    height: 60px;
+    text-align: center;
+    justify-self: end;
+}
+
+.preço-car {
+    letter-spacing: 1px;
+    font-family: 'Arial black', sans-serif;
+    font-size: 14px;
+}
+
+.img-buy-car {
+    width: 40%;
+}
+
+#img-girafinha {
+    height: 150px;
+}
+
+#img-bebe {
+    height: 130px;
+}
+
+#animation-rotate {
+    height: 100px;
+    -webkit-animation: spin 8s linear infinite;
+    -moz-animation: spin 8s linear infinite;
+    animation: spin 8s linear infinite;
+}
+
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.wrapper-content1 {
+    height: 185px;
+    min-width: min-content;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.wrapper-presentation {
+    background-image: radial-gradient(circle 1224px at 10.6% 8.8%, rgba(255, 255, 255, 1) 0%, rgba(153, 202, 251, 1) 100.2%);
+    height: 100px;
+    display: flex;
+    min-width: min-content;
+    /*padding: 2%;*/
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+
+.ptext1,
+.ptext2 {
+    /* padding: 1%;*/
+    width: auto;
+    letter-spacing: 5px;
+    text-shadow: 0 0 0.5px #000;
+    font-size: 35px;
+    background-image: radial-gradient(circle 1224px at 10.6% 8.8%, rgba(255, 255, 255, 1) 0%, rgba(153, 202, 251, 1) 100.2%);
+    font-family: "Titan One", sans-serif;
+    color: #e22bd9;
+}
+
+.ptext3 {
+    /* padding: 1%;*/
+    width: auto;
+    letter-spacing: 5px;
+    text-shadow: 0 0 0.5px #000;
+    font-size: 20px;
+    background-image: radial-gradient(circle 1224px at 10.6% 8.8%, rgba(255, 255, 255, 1) 0%, rgba(153, 202, 251, 1) 100.2%);
+
+    color: black;
+}
+
+.wrapper-services {
+    margin-top: 2%;
+    /* background-color: azure;*/
+    height: 60px;
+    padding: 1px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+
+.wrapper-content-services {
+    height: 70px;
+    padding: 2px;
+}
+
+.div-center {
+    padding-left: 5%;
+    padding-right: 5%;
+    border-left: 1px solid green;
+    border-right: 1px solid green;
+}
+
+.ptext-services {
+    font-family: 'arial black', monospace;
+    font-size: 12px;
+    background-color: none;
+}
+
+.img-services {
+    height: 70%;
+}
+
+.wrapper-achadinhos {
+    border-bottom: 1px solid green;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.ptext-achadinhos {
+    margin-top: 5%;
+    padding: 0.5%;
+}
+
+#wrapper-grid-products {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1%;
+    flex-wrap: wrap;
+    padding: 2%;
+}
+
+.container-product {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border: 0.2px solid #fff;
+    background-image: radial-gradient(circle 993px at 0.5% 50.5%, rgba(137, 171, 245, 0.37) 0%, rgba(245, 247, 252, 1) 100.2%);
+    width: 150px;
+    height: 200px;
+    text-align: center;
+    margin-bottom: 1.5%;
+    padding: 0.5%;
+}
+
+.img-products {
+    width: 100%;
+    height: 85%;
+    padding: 0.1px;
+    opacity: 99%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.ptext-products {
+    color: #000;
+    background-color: #f2fcfe;
+    margin-top: 1%;
+    padding: 0.1px;
+}
+
+footer, #wrapper-log-creator {
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    align-content: center;
+}
+
+footer {
+    border-top: 1px solid #000;
+}
+
+.wrapper-img-footer {
+    height: 40px;
+}
+
+.img-footer {
+    height: 100%;
+}
+
+.wrapper-footer {
+    height: auto;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.ptext-footer,
+.ptext-fone {
+    padding: 0.2%;
+    font-family: 'Arial black';
+    color: black;
+}
+
+#img-logcreator {
+    width: 5%;
+}
+
+@media (max-width:768px) {
+    #img-girafinha {
+        height: 100px;
+    }
+
+    #img-bebe {
+        height: 100px;
+    }
+
+    #animation-rotate {
+        height: 100px;
+
+    }
+
+    .ptext-services {
+        font-size: 8px;
+    }
+
+    .ptext3 {
+        display: none;
+    }
+
+
+}
+
+@media (max-width:568px) {
+    #img-girafinha {
+        height: 80px;
+    }
+
+    #img-bebe {
+        height: 80px;
+    }
+
+    #animation-rotate {
+        height: 80px;
+    }
+
+    #text-header {
+        font-size: 10px;
+        margin-right: 2%;
+    }
+
+    .ptext-services {
+        font-size: 8px;
+    }
+}
+
+@media (max-width:450px) {
+    #img-girafinha {
+        height: 50px;
+    }
+
+    #img-bebe {
+        height: 50px;
+    }
+
+    #animation-rotate {
+        height: 50px;
+
+    }
+
+    #text-header {
+        font-size: 8px;
+        margin-right: 2%;
+    }
+
+    .ptext-services {
+        font-size: 8px;
+    }
+}
+
+@media (max-width:360px) {
+    #img-girafinha {
+        height: 40px;
+    }
+
+    #img-bebe {
+        height: 40px;
+    }
+
+    #animation-rotate {
+        height: 40px;
+
+    }
+
+}
+
+@media (max-width:390px) {
+    .wrapper-content1 {
+        background-image: radial-gradient(circle 1224px at 10.6% 8.8%, rgba(255, 255, 255, 1) 0%, rgba(153, 202, 251, 1) 100.2%);
+        padding: 2%;
+    }
+
+    .ptext1,
+    .ptext2 {
+        font-size: 25px;
+    }
+}
